@@ -1,0 +1,192 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background-color: #00796b;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+footer {
+  background-color: #00796b;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+.dog-gallery {
+  margin: 20px;
+}
+
+.dog-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-around;
+}
+
+.dog-item {
+  text-align: center;
+  width: 30%;
+}
+
+.dog-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.dog-item h3 {
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+/* Navbar Styles */
+.navbar {
+  background-color: #004d40;
+  padding: 10px 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.nav-list {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.nav-list li {
+  margin: 0 20px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #f4f4f4;
+}
+
+/* Add these styles to style.css to make the new sections look better */
+
+/* General section styling */
+section {
+  margin: 30px 0;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+}
+
+h2 {
+  color: #333;
+  font-size: 1.8em;
+}
+
+/* About History */
+.about-history p {
+  font-size: 1.1em;
+  line-height: 1.5;
+}
+
+/* Meet the Team */
+.about-team .team-member {
+  background-color: #fff;
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.about-team .team-member h3 {
+  font-size: 1.4em;
+  margin-bottom: 10px;
+}
+
+/* FAQ Section */
+.about-faq .faq-item {
+  margin-bottom: 15px;
+}
+
+.about-faq h3 {
+  font-size: 1.3em;
+  margin-bottom: 10px;
+}
+
+.about-faq p {
+  font-size: 1.1em;
+}
+
+/* Contact Section */
+.about-contact p {
+  font-size: 1.2em;
+  color: #333;
+}
+
+.about-contact a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+.about-contact a:hover {
+  text-decoration: underline;
+}
+
+/* 404 Page Styles (404.html) */
+header {
+  text-align: center;
+  margin-top: 50px;
+}
+
+h2 {
+  font-size: 2em;
+  color: #ff3b30;
+}
+
+.error-message p {
+  font-size: 1.2em;
+  margin: 20px 0;
+  color: #555;
+}
+
+.home-link {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ff3b30;
+  color: #fff;
+  font-size: 1.1em;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.home-link:hover {
+  background-color: #ff5733;
+}
+
+/* Error Image Styling */
+.error-image {
+  text-align: center;
+  margin: 30px 0;
+}
+
+.error-image img {
+  width: 80%;
+  max-width: 600px;
+  height: auto;
+  border-radius: 10px;
+}
